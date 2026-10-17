@@ -1,0 +1,32 @@
+.player-chart {
+  max-width: 820px;
+  margin: 32px auto;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  color: #1f2937;
+}
+
+.player-chart__header {
+  display: flex;
+  align-items: center; /* 圖與文字垂直置中 */
+  gap: 16px;           /* 圖與文字的間距 */
+  margin-bottom: 16px;
+}
+
+.player-chart__logo {
+  height: 100px;
+  width: auto;         /* 依高度等比例縮放 */
+  flex-shrink: 0;      /* 空間不足時不要壓縮圖片 */
+}
+
+.player-chart__title {
+  margin: 0;           /* 原本是 0 0 16px，間距改由 header 負責 */
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.player-chart__canvas {
+  height: 360px;
+}
