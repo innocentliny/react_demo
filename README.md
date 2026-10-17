@@ -1,6 +1,7 @@
 # [React] 遊戲戰情儀表板
 * 此專案是自我學習 React 之用，僅用來體驗語法、架構...等入門用途。
-* 跟圖表相關的程式碼幾乎由 Claude 輔助產生，自己再微調成想要的樣子。
+* 跟圖表相關的程式碼幾乎由 Claude 輔助產生，自己再微調成想要的樣子:
+  ![webpage_sample.png](webpage_sample.png)
 
 ## Available Scripts
 
